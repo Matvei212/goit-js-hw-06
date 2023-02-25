@@ -6,11 +6,11 @@ const valueEl = document.querySelector('#value');
 let counterValue = 0;
 
 decrementButton.addEventListener('click', () => {
-  counterValue--;
+  counterValue-=1;
   valueEl.textContent = counterValue;
 });
 
 incrementButton.addEventListener('click', () => {
-  counterValue++;
+  counterValue+=1;
   valueEl.textContent = counterValue;
 });

@@ -28,6 +28,7 @@ function createBoxes(amount) {
 function destroyBoxes() {
   refs.boxes.innerHTML = '';
   boxSize = 30;
+  refs.input.value = '';
 }
 
 
